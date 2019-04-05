@@ -1,0 +1,39 @@
+Name: Sicong Fang 
+Email: sf2796@columbia.edu
+Homework number: hw1
+*Trained SVM, Logistic regression and Naive Bayes with gridsearch on parameters.
+————————————————————————————————————————
+*Tuning parameters are:
+Logistic regression: “C” & “fit_intercept”
+SVM: “C” (Tried kernel, but abandoned it due to computation compacity)
+Naive Bayes: None
+————————————————————————————————————————
+*Test Accuracy:
+uni-gram, logistic Regression:
+0.5916
+uni-gram, SVM:
+0.5886
+uni-gram, Naive Bayes:
+0.6164
+
+bi-gram, logistic Regression:
+0.5522
+bi-gram, SVM:
+0.5532
+bi-gram, Naive Bayes:
+0.5606
+
+tri-gram, logistic Regression:
+0.5014
+tri-gram, SVM:
+0.5026
+tri-gram, Naive Bayes:
+0.5072
+————————————————————————————————————————
+*Special Features 
+1. Emoji
+2. All capitalized words(“AWESOME”)
+3. Word lengthening (“soooooooooo cool”)-used the difference of word length with regular form as feature
+4. Exclamation points
+
+Note: only emoji is added to the best model
